@@ -58,7 +58,7 @@ See [PROJECT_ABSTRACT.md](PROJECT_ABSTRACT.md) for a full summary and vision.
 
 ## 🚀 Future Scope
 
-Want to know what’s planned next? Check out [FUTURE_WORK.md](FUTURE_WORK.md) for our roadmap and upcoming features.
+Want to know what’s planned next? Check out [future_work.md]([FUTURE_WORK.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/future_work.md)) for our roadmap and upcoming features.
 
 ---
 
