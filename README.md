@@ -50,39 +50,21 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 
 ---
 
-## 📊 How Results & Decisions Are Explained
+## 📜 Project Abstract
 
-1. **Model Outputs:**  
-   The system returns **confidence scores for all major crops**, not just the best match. This transparency helps you see how close other crops are to your conditions.
+See [PROJECT_ABSTRACT.md](PROJECT_ABSTRACT.md) for a full summary and vision.
 
-2. **Visualizations:**  
-   - **Bar Chart:** Quickly spot which crops are most recommended.
-   - **Pie Chart:** See the distribution of confidence across crops.
-   - **Radar Chart:** Compare your soil/weather with typical crop requirements.
+---
 
-3. **Decision Support:**  
-   The recommended crop is the one with the highest confidence. Charts show why a crop was recommended—if your conditions closely match the ideal, you'll see a high confidence. The radar chart highlights gaps between local conditions and crop requirements, supporting better agronomic decisions.
+## 🚀 Future Scope
 
-4. **Robust Dataset:**  
-   Trained on a synthetic yet domain-accurate dataset with thousands of samples, covering India's major crops and realistic environmental parameters.
+Want to know what’s planned next? Check out [FUTURE_WORK.md](FUTURE_WORK.md) for our roadmap and upcoming features.
 
 ---
 
 ## 🔬 Technical Stack
 
-- **Backend:** Python, Flask, scikit-learn, Pandas, NumPy
-- **Frontend:** HTML, JavaScript, Bootstrap, Chart.js
-- **Model:** Random Forest Classifier
-- **Visualization:** Interactive charts via Chart.js
-
----
-
-## 🏆 Why This Project Stands Out
-
-- **Solves a real-world agricultural problem for India**
-- **Full-stack engineering:** ML, API, UI, data visualization
-- **Well-documented and visually compelling**
-- **Ready for deployment or extension**
+For full details, see [TECH_STACK.md](TECH_STACK.md).
 
 ---
 
@@ -96,7 +78,11 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 │   └── predict.html      # Web UI
 ├── static/
 │   └── ...               # CSS, JS, Chart.js
-└── README.md             # Project documentation
+├── README.md             # Project documentation
+├── PROJECT_ABSTRACT.md   # Project abstract
+├── FUTURE_WORK.md        # Planned features & roadmap
+├── TECH_STACK.md         # Full technical stack details
+└── REFERENCES.md         # Citations and data sources
 ```
 
 ---
@@ -126,10 +112,7 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 
 ## 📑 References
 
-- Indian agricultural datasets
-- [scikit-learn documentation](https://scikit-learn.org/)
-- [Chart.js documentation](https://www.chartjs.org/)
-- [Research Paper: Machine Learning Approaches for Crop Recommendation System: A Review (2022)](https://ieeexplore.ieee.org/document/9773837)
+See [REFERENCES.md](REFERENCES.md) for datasets, API docs, and research papers.
 
 ---
 
