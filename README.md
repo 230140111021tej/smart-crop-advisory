@@ -64,7 +64,8 @@ Want to know what’s planned next? Check out [future_work.md]([FUTURE_WORK.md](
 
 ## 🔬 Technical Stack
 
-For full details, see [TECH_STACK.md](TECH_STACK.md).
+For full details, see [tech_stack.md]([TECH_STACK.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/tech_stack.md
+)).
 
 ---
 
@@ -112,7 +113,7 @@ For full details, see [TECH_STACK.md](TECH_STACK.md).
 
 ## 📑 References
 
-See [REFERENCES.md](REFERENCES.md) for datasets, API docs, and research papers.
+See [references.md]([REFERENCES.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/references.md)) for datasets, API docs, and research papers.
 
 ---
 
