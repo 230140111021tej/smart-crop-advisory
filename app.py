@@ -141,8 +141,10 @@ def predict():
         return jsonify(response)
     
     except Exception as e:
+        # Log the error for debugging but don't expose details to users
+        print(f"Prediction error: {str(e)}")
         return jsonify({
-            'error': f'Prediction failed: {str(e)}'
+            'error': 'Prediction failed. Please check your input parameters.'
         }), 500
 
 
@@ -187,4 +189,7 @@ if __name__ == '__main__':
     print("API will be available at: http://localhost:5000")
     print("=" * 60)
     
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # Use debug mode only in development. Set to False in production.
+    # You can control this with environment variables
+    debug_mode = os.environ.get('FLASK_DEBUG', 'False').lower() == 'true'
+    app.run(debug=debug_mode, host='0.0.0.0', port=5000)
