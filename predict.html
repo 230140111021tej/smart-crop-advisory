@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Crop Advisory - Easy Demo</title>
+</head>
+<body>
+  <h2>Crop Prediction</h2>
+  <form id="predictForm">
+    Temperature: <input type="number" name="temperature" value="30"><br>
+    Humidity: <input type="number" name="humidity" value="60"><br>
+    pH: <input type="number" name="ph" value="6.5" step="0.1"><br>
+    Rainfall: <input type="number" name="rainfall" value="120"><br>
+    Nitrogen: <input type="number" name="nitrogen" value="20"><br>
+    Phosphorus: <input type="number" name="phosphorus" value="10"><br>
+    Potassium: <input type="number" name="potassium" value="30"><br>
+    Soil Moisture: <input type="number" name="soil_moisture" value="12"><br>
+    <br>
+    <input type="submit" value="Predict">
+  </form>
+  <h3>Prediction Result:</h3>
+  <pre id="result"></pre>
+  <script>
+    document.getElementById('predictForm').onsubmit = async function(e) {
+      e.preventDefault();
+      const form = e.target;
+      const data = {};
+      for (let el of form.elements) {
+        if (el.name) data[el.name] = el.type === "number" ? Number(el.value) : el.value;
+      }
+      const res = await fetch('http://127.0.0.1:5000/predict', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(data)
+      });
+      const json = await res.json();
+      document.getElementById('result').textContent = JSON.stringify(json, null, 2);
+    };
+  </script>
+</body>
+</html>
