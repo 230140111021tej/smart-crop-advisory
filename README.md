@@ -25,28 +25,25 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 
 ## ✨ Demo Screenshots
 
-### Crop Recommendation & Confidence
+### Intelligent Crop Recommendation Form
 
-![Recommended Crop: Maize and Confidence Charts](image/Crop%20Recommendation%20%26%20Confidence%20Charts.png)
+![Intelligent Crop Recommendation Form](image/Intelligent%20Crop%20Recommendation%20Form.png)
 
-### Visual Analytics: Bar & Pie Charts
+### Crop Recommendation & Confidence Charts
 
-- **Bar Chart:** Confidence by Crop
-- **Pie Chart:** Confidence Distribution
-
-![Bar and Pie Chart](image/Crop%20Recommendation%20%26%20Confidence%20Charts.png)
+![Crop Recommendation & Confidence Charts](image/Crop%20Recommendation%20%26%20Confidence%20Charts.png)
 
 ### Radar Chart: Your Inputs vs. Typical Crop Requirements
 
-- Compares your local conditions against the ideal profile for the recommended crop.
+![Radar Chart: Your Inputs vs. Typical Crop Requirements](image/Radar%20Chart%3A%20Your%20Inputs%20vs.%20Typical%20Crop%20Requirements.png)
 
-![Radar Chart: Inputs vs Crop Requirements](image/Radar%20Chart%3A%20Your%20Inputs%20vs.%20Typical%20Crop%20Requirements.png)
+### Prediction Confidence for Major Indian Crops (List Style)
 
-### Prediction Confidence for Major Indian Crops
+![Prediction Confidence for Major Indian Crops](image/prediction_confidence_for_majr_indian_crops.png)
 
-- See confidence scores for all major crops, not just the top 5.
+### Prediction Confidence for Major Indian Crops (Alternative Style)
 
-![Prediction Confidence List](image/major_crops_confidence.png)
+![Major Crops Confidence](image/major_crops_confidence.png)
 
 ---
 
