@@ -52,21 +52,19 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 
 ## 📊 How Results & Decisions Are Explained
 
-### 1. **Model Outputs**
-- The system returns **confidence scores for all major crops**, not just the best match. This transparency helps you see how close other crops are to your conditions.
+1. **Model Outputs:**  
+   The system returns **confidence scores for all major crops**, not just the best match. This transparency helps you see how close other crops are to your conditions.
 
-### 2. **Visualizations**
-- **Bar Chart:** Quickly spot which crops are most recommended.
-- **Pie Chart:** See the distribution of confidence across crops.
-- **Radar Chart:** Compare your soil/weather with typical crop requirements.
+2. **Visualizations:**  
+   - **Bar Chart:** Quickly spot which crops are most recommended.
+   - **Pie Chart:** See the distribution of confidence across crops.
+   - **Radar Chart:** Compare your soil/weather with typical crop requirements.
 
-### 3. **Decision Support**
-- The recommended crop is the one with the highest confidence.
-- Charts show why a crop was recommended—if your conditions closely match the ideal, you'll see a high confidence.
-- The radar chart highlights gaps between local conditions and crop requirements, supporting better agronomic decisions.
+3. **Decision Support:**  
+   The recommended crop is the one with the highest confidence. Charts show why a crop was recommended—if your conditions closely match the ideal, you'll see a high confidence. The radar chart highlights gaps between local conditions and crop requirements, supporting better agronomic decisions.
 
-### 4. **Robust Dataset**
-- Trained on a synthetic yet domain-accurate dataset with thousands of samples, covering India's major crops and realistic environmental parameters.
+4. **Robust Dataset:**  
+   Trained on a synthetic yet domain-accurate dataset with thousands of samples, covering India's major crops and realistic environmental parameters.
 
 ---
 
@@ -131,6 +129,7 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 - Indian agricultural datasets
 - [scikit-learn documentation](https://scikit-learn.org/)
 - [Chart.js documentation](https://www.chartjs.org/)
+- [Research Paper: Machine Learning Approaches for Crop Recommendation System: A Review (2022)](https://ieeexplore.ieee.org/document/9773837)
 
 ---
 
@@ -149,3 +148,9 @@ This project showcases:
 ## 🗣️ Contact
 
 For questions, collaborations, or feedback, open an issue or connect via GitHub!
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
