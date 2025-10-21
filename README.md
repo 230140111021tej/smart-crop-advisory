@@ -52,20 +52,19 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 
 ## 📜 Project Abstract
 
-See [smart_india_hackathon_abstract.md]([PROJECT_ABSTRACT.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/smart_india_hackathon_abstract.md)) for a full summary and vision.
+See [smart_india_hackathon_abstract.md](smart_india_hackathon_abstract.md) for a full summary and vision.
 
 ---
 
 ## 🚀 Future Scope
 
-Want to know what’s planned next? Check out [future_work.md]([FUTURE_WORK.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/future_work.md)) for our roadmap and upcoming features.
+Want to know what’s planned next? Check out [future_work.md](future_work.md) for our roadmap and upcoming features.
 
 ---
 
 ## 🔬 Technical Stack
 
-For full details, see [tech_stack.md]([TECH_STACK.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/tech_stack.md
-)).
+For full details, see [tech_stack.md](tech_stack.md).
 
 ---
 
@@ -80,10 +79,10 @@ For full details, see [tech_stack.md]([TECH_STACK.md](https://github.com/2301401
 ├── static/
 │   └── ...               # CSS, JS, Chart.js
 ├── README.md             # Project documentation
-├── PROJECT_ABSTRACT.md   # Project abstract
-├── FUTURE_WORK.md        # Planned features & roadmap
-├── TECH_STACK.md         # Full technical stack details
-└── REFERENCES.md         # Citations and data sources
+├── smart_india_hackathon_abstract.md   # Project abstract
+├── future_work.md        # Planned features & roadmap
+├── tech_stack.md         # Full technical stack details
+└── references.md         # Citations and data sources
 ```
 
 ---
@@ -113,7 +112,7 @@ For full details, see [tech_stack.md]([TECH_STACK.md](https://github.com/2301401
 
 ## 📑 References
 
-See [references.md]([REFERENCES.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/references.md)) for datasets, API docs, and research papers.
+See [references.md](references.md) for datasets, API docs, and research papers.
 
 ---
 
