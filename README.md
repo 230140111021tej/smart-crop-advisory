@@ -1,23 +1,44 @@
-# Smart Crop Advisory
+# Smart Crop Advisory System
 
-## Overview
-The Smart Crop Advisory is an innovative solution designed to help farmers maximize their crop yield by providing tailored agricultural advice based on real-time data analysis.
+A modern, machine learning-powered platform for intelligent crop recommendations in Indian agriculture.
 
-## Features
-- **Data-Driven Insights**: Utilizes advanced analytics to offer actionable insights.
-- **User-Friendly Interface**: Easy to navigate dashboard for farmers.
-- **Real-Time Updates**: Provides the latest information on weather and crop conditions.
+---
 
-## Installation
-1. Clone the repository: `git clone https://github.com/230140111021tej/smart-crop-advisory.git`
-2. Navigate to the project directory: `cd smart-crop-advisory`
-3. Install dependencies: `npm install`
+## What It Does
+- Analyzes soil, weather, and nutrients to predict the best crop for your field.
+- Shows confidence scores and visual charts for clear decision support.
+- Simple, interactive web interface.
 
-## Usage
-Run the application using `npm start` and follow the on-screen instructions to receive personalized crop advice.
+---
 
-## Contributing
-We welcome contributions from the community. Please fork the repository and submit a pull request for any changes.
+## Key Highlights
+- ML-powered Crop Prediction – Accurate, data-driven results.
+- Easy-to-Use Dashboard – Instantly see recommendations and charts.
+- Visual Insights – Bar, pie, and radar charts for confidence and input comparison.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+---
+
+## Demo
+
+**Crop Confidence & Recommendation**
+
+![Recommended Crop & Charts](image7)
+
+**Radar Chart: Your Inputs vs Crop Needs**
+
+![Radar Chart](image5)
+
+**Confidence Scores for All Crops**
+
+![Prediction Confidence List](image6)
+
+---
+
+## Skills & Tech Used
+- Machine Learning · Python · Flask API
+- Web Development · Bootstrap · Chart.js
+- Data Visualization · UX · Real-World Problem Solving
+
+---
+
+_For details, see project files and demo screenshots._
