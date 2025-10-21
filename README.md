@@ -52,7 +52,7 @@ Smart Crop Advisory System is a full-stack machine learning web application desi
 
 ## 📜 Project Abstract
 
-See [PROJECT_ABSTRACT.md](PROJECT_ABSTRACT.md) for a full summary and vision.
+See [smart_india_hackathon_abstract.md]([PROJECT_ABSTRACT.md](https://github.com/230140111021tej/smart-crop-advisory/blob/main/smart_india_hackathon_abstract.md)) for a full summary and vision.
 
 ---
 
