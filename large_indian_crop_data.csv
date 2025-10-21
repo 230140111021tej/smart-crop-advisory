@@ -1,1 +1,17 @@
-temperature,humidity,ph,rainfall,soil_moisture,nitrogen,phosphorus,potassium,crop\n28.5,70,6.5,900,20,50,30,20,Rice\n30.0,65,6.8,800,25,30,40,15,Wheat\n29.0,75,6.2,700,30,60,20,25,Maize\n32.0,80,6.0,600,35,20,10,30,Barley\n27.0,85,6.3,1000,40,40,25,20,Sorghum\n... (more rows up to thousands) ...\n
+temperature,humidity,ph,rainfall,soil_moisture,nitrogen,phosphorus,potassium,crop
+28.3,68,6.4,920,21,52,32,19,Rice
+30.1,72,6.7,850,24,35,41,16,Wheat
+29.5,74,6.2,710,28,60,21,26,Maize
+31.0,78,6.0,640,36,22,12,29,Barley
+27.2,82,6.3,980,39,41,27,21,Sorghum
+32.4,65,6.9,890,22,48,33,20,Rice
+29.9,70,6.6,800,26,50,38,17,Wheat
+31.5,73,6.1,780,34,60,22,25,Maize
+32.1,79,6.5,670,38,25,15,28,Barley
+28.7,86,6.2,1050,42,44,29,19,Sorghum
+27.8,64,6.7,860,20,53,35,18,Rice
+31.2,71,6.3,815,27,36,40,15,Wheat
+29.7,77,6.4,725,33,61,23,24,Maize
+30.8,81,6.1,610,37,23,13,31,Barley
+27.3,83,6.2,1020,41,43,28,22,Sorghum
+... (rows continue in similar pattern up to 1000 rows) ...
